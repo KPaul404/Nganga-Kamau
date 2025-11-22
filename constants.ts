@@ -4,8 +4,6 @@ export const SOCIAL_LINKS = {
   kaggle: "https://www.kaggle.com/paulnkamau",
   zindi: "https://zindi.africa/users/Paul_K",
   email: "ngangapaulkamau@gmail.com",
-  phone: "(+254) 704759219",
-  linkedin: "#", 
 };
 
 export const SKILLS: Skill[] = [
@@ -13,68 +11,6 @@ export const SKILLS: Skill[] = [
   { category: "Engineering & Geospatial", items: ["Petroleum Engineering", "Reservoir Simulation", "GIS", "Remote Sensing", "Sentinel-2 Data", "Fluid Mechanics"] },
   { category: "Data Engineering & Cloud", items: ["SQL", "AWS", "Google Cloud Platform", "ETL Pipelines", "Docker", "Git", "BigQuery"] },
   { category: "Visualization & Tools", items: ["Tableau", "Power BI", "Matplotlib", "Seaborn", "Plotly", "Observable HQ"] },
-];
-
-export const EXPERIENCE_DATA: Experience[] = [
-  {
-    id: "1",
-    role: "Co-Founder & Team Leader",
-    company: "KenyaLearn AI",
-    location: "Nairobi, Kenya",
-    period: "Nov 2024 – Present",
-    description: [
-      "Leading the development of an innovative AI-powered educational platform to transform learning in Kenya.",
-      "Architecting scalable AI solutions for teacher support and classroom management.",
-      "Implementing advanced data analytics to track learning outcomes."
-    ]
-  },
-  {
-    id: "2",
-    role: "Data Science Extern",
-    company: "Beats by Dre",
-    location: "Remote",
-    period: "May 2025 – July 2025",
-    description: [
-      "Developing sentiment analysis models using Python to interpret consumer feedback on brand perception.",
-      "Conducting EDA to identify key market trends and consumer behavior patterns.",
-      "Utilizing NLP to translate complex data into actionable strategic insights."
-    ]
-  },
-  {
-    id: "3",
-    role: "Data Analyst",
-    company: "TFA Project Group",
-    location: "Remote",
-    period: "Oct 2024 – Dec 2024",
-    description: [
-      "Managed large datasets, maintaining quality through rigorous cleaning and validation.",
-      "Built predictive models to forecast trends and support organizational decision-making.",
-      "Created interactive dashboards to simplify complex data stories."
-    ]
-  },
-  {
-    id: "4",
-    role: "Freelance Tutor (Data & Research)",
-    company: "Freelance",
-    location: "Remote",
-    period: "Sep 2022 – Aug 2023",
-    description: [
-      "Tutored clients in research methodologies, data analysis (Excel/Python), and report writing.",
-      "Guided research projects focusing on reproducible results and statistical validity."
-    ]
-  },
-  {
-    id: "5",
-    role: "Engineering Intern",
-    company: "Kenya Pipeline Company",
-    location: "Mombasa, Kenya",
-    period: "Jun 2017 – Sept 2017",
-    description: [
-      "Assisted in monitoring pipeline operations and collecting operational data.",
-      "Supported maintenance of mechanical and electrical systems.",
-      "Conducted quality control tests on petroleum products to ensure industry standard adherence."
-    ]
-  }
 ];
 
 export const PROJECTS_DATA: Project[] = [
