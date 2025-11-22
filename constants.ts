@@ -3,7 +3,7 @@ import { Experience, Project, Award, Skill } from './types';
 export const SOCIAL_LINKS = {
   kaggle: "https://www.kaggle.com/paulnkamau",
   zindi: "https://zindi.africa/users/Paul_K",
-  email: "ngangapaulkamau@gmail.com",
+  email: "ngangapaulkamau@gmail.com"
 };
 
 export const SKILLS: Skill[] = [
