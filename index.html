@@ -25,12 +25,11 @@
     <style>
       html {
         scroll-behavior: smooth;
-        scroll-padding-top: 80px; /* Offsets the fixed navbar height */
+        scroll-padding-top: 80px;
       }
       body { font-family: 'Inter', sans-serif; }
       h1, h2, h3, h4, h5, h6 { font-family: 'Outfit', sans-serif; }
       
-      /* Custom scrollbar for modern feel */
       ::-webkit-scrollbar {
         width: 8px;
       }
@@ -44,8 +43,7 @@
       ::-webkit-scrollbar-thumb:hover {
         background: #f97316; 
       }
-
-      /* Right to Left Shine Animation */
+      
       @keyframes shine-rl {
         0% { transform: translateX(100%); }
         100% { transform: translateX(-100%); }
@@ -54,23 +52,9 @@
         animation: shine-rl 3s linear infinite;
       }
     </style>
-  <script type="importmap">
-{
-  "imports": {
-    "recharts": "https://aistudiocdn.com/recharts@^3.4.1",
-    "lucide-react": "https://aistudiocdn.com/lucide-react@^0.554.0",
-    "react-dom/": "https://aistudiocdn.com/react-dom@^19.2.0/",
-    "react": "https://aistudiocdn.com/react@^19.2.0",
-    "react/": "https://aistudiocdn.com/react@^19.2.0/",
-    "@google/genai": "https://aistudiocdn.com/@google/genai@^1.30.0",
-    "highcharts": "https://aistudiocdn.com/highcharts@^12.4.0",
-    "highcharts/": "https://aistudiocdn.com/highcharts@^12.4.0/",
-    "highcharts-react-official": "https://aistudiocdn.com/highcharts-react-official@^3.2.3"
-  }
-}
-</script>
-</head>
+  </head>
   <body class="bg-gray-50 dark:bg-neutral-950 text-neutral-900 dark:text-white transition-colors duration-300">
     <div id="root"></div>
+    <script type="module" src="/index.tsx"></script>
   </body>
 </html>
