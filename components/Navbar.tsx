@@ -45,7 +45,7 @@ const Navbar: React.FC = () => {
   const navItems = [
     { name: 'Home', href: '#home', icon: Home },
     { name: 'Me', href: '#about', icon: User },
-    { name: 'Work', href: '#projects', icon: Sparkles },
+    { name: 'Projects', href: '#projects', icon: Sparkles },
     { name: 'Awards', href: '#awards', icon: Trophy },
   ];
 
