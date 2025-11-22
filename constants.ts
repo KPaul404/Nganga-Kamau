@@ -53,7 +53,7 @@ export const AWARDS_DATA: Award[] = [
     id: "a1",
     title: "BinEgo-360 Challenge (ICCV 2025)",
     organization: "IEEE/CVF Conference on Computer Vision",
-    date: "Aug 2025",
+    date: "Oct 2025",
     description: "Winner of the prizes for 2nd Place in Temporal Action Localization (TAL) Track & 3rd Place in Classification Track.",
     rank: "2nd & 3rd Place",
     link: "https://x360dataset.github.io/BinEgo-360/#challenge"
@@ -71,7 +71,7 @@ export const AWARDS_DATA: Award[] = [
     id: "a3",
     title: "Amini GeoFM Challenge",
     organization: "Zindi Africa & Amini",
-    date: "Aug 2025",
+    date: "July 2025",
     description: "Winner of the 1st Place Prize. Built a pixel-time-series classifier using GeoFM embeddings to map crop types.",
     rank: "1st Place",
     link: "https://zindi.africa/competitions/amini-geofm-decoding-the-field-challenge"
