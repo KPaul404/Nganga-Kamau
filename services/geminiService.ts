@@ -1,9 +1,13 @@
+// Remove the GoogleGenAI import and initialization
+// Update the function to call your Vercel API
+
 export const sendMessageToGemini = async (
   message: string, 
   history: { role: 'user' | 'model', content: string }[]
 ) => {
   try {
-    const response = await fetch('/api/chat', {
+    // Replace with YOUR actual Vercel deployment URL
+    const response = await fetch('https://nganga-kamau-api.vercel.app/api/chat', {
       method: 'POST',
       headers: { 
         'Content-Type': 'application/json' 
