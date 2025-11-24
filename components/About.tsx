@@ -12,14 +12,14 @@ const About: React.FC = () => {
           {/* Bio Widget - Wide */}
           <div className="lg:col-span-7 bg-white dark:bg-[#111] rounded-[2.5rem] p-8 md:p-12 border border-neutral-200 dark:border-neutral-800 shadow-sm flex flex-col justify-center">
              <h3 className="text-3xl font-bold text-neutral-900 dark:text-white mb-6 font-display">
-               Engineering & AI
+               Engineering & Data Science
              </h3>
              <div className="space-y-6 text-lg text-neutral-600 dark:text-neutral-400 leading-relaxed font-medium">
                 <p>
-                  I combine a background in <span className="text-neutral-900 dark:text-white decoration-orange-500 underline decoration-2 underline-offset-4">Petroleum Engineering</span> with <span className="text-neutral-900 dark:text-white decoration-orange-500 underline decoration-2 underline-offset-4">Data Science</span>  to solve real-world problems. My approach is grounded in data and system analysis, ensuring AI models are both practical and reliable.
+                  I combine a background in <span className="text-neutral-900 dark:text-white decoration-orange-500 underline decoration-2 underline-offset-4">Petroleum Engineering</span> and <span className="text-neutral-900 dark:text-white decoration-orange-500 underline decoration-2 underline-offset-4">Data Science</span> . My problem-solving approaches are grounded in data and system analyses, ensuring solutions are both practical and reliable.
                 </p>
                 <p>
-                  Currently, my focus is on building impactful tools for Africa through various technologies.
+                  Currently, my focus is on building impactful tools that benefit users through various technologies.
                 </p>
              </div>
           </div>
