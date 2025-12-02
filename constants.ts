@@ -124,16 +124,7 @@ Tone: Modern, confident, tech-savvy.
 FURTHER DETAILS:
 
 Some Selected Works
-Innovations in Multimodal AI & Geospatial.
-
-StyleSnapp Virtual Try-on
-GenAI
-Computer Vision
-Multi-Agent Systems
-StyleSnapp Virtual Try-on
-An AI-powered virtual try-on experience using a multi-agent system and quality-control AI Judge to perfect outfits.
-
-View Project at https://www.youtube.com/watch?v=G3UxIYOgyVY&t=4s
+THE ATLAS PROJECTS INCLUDE: Atlas: Infectious Diseases; Atlas: Soil & Food Security, AND Atlas: Forest Cover Analysis
 
 Atlas: Infectious Diseases
 Data Storytelling
